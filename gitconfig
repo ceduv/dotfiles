@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = cedduvillier@gmail.com
+	name = cedric duvillier
