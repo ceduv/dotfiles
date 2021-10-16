@@ -1,11 +1,12 @@
 ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="dallas"
+# "robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv ssh-agent zsh-autosuggestions)
-
+plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv ssh-agent zsh-autosuggestions sudo dirhistory copydir web-search jsontools)
+        # zsh-autosuggestions sudo dirhistory copydir web-search jsontools
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
 
@@ -75,7 +76,8 @@ sudo /etc/init.d/postgresql start
 # SE DEPLACER
 alias ww='cd /mnt/c/Users/Akro/desktop'
 alias wag='cd /mnt/c/Users/Akro/desktop/dev/LeWagon'
-alias wagr='cd /mnt/c/Users/Akro/desktop/dev/LeWagon/rails'
+alias cour='cd /mnt/c/Users/Akro/desktop/dev/LeWagon/challenge_cours'
+alias exo='cd /mnt/c/Users/Akro/desktop/dev/LeWagon/fullstack_challenges'
 
 # SCRIPT
 alias maj='bash /home/akro/code/script/script_upgrade/maj.sh'
